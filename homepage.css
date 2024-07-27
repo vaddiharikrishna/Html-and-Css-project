@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 255, 187);
+    color: white;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
+
+}
+.tutor-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+header h1  {
+    margin-left: 30PX;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#tutor {
+    background-image: url(./WhatsApp\ Image\ 2024-07-26\ at\ 08.28.41_f6fac330.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: #fff;
+}
+.tutor-content {
+    background-color: rgba(0, 0, 0, 0.625);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-indent: 30px;
+}
+.tutor-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px,20px;
+    background-color: #ee6c4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.4s;
+    font-size: 20px;
+}
+.tutor-button:hover {
+    background-color: #2a77d6;
+    font-size: 40px;
+}
+#services  {
+    background-color: pink;
+    padding: 20px;
+    text-align: left;
+}
+#services p {
+    color: blue;
+    font-size: 20px;
+}
+#services h2 {
+    color: #ff0008;
+    margin-bottom: 15px;
+}
+#services ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+#services li {
+    margin-bottom: 10px;
+}
+#about {
+    background: red;
+    padding: 20px;
+    text-align: center;
+}
+#about h2 {
+    color: #28a745;
+    margin-bottom: 15px;
+}
+#persons {
+    background: blue;
+    padding: 5px;
+}
+#persons h1  {
+    text-align: center;
+}
+#persons p {
+    text-align: center;
+}
+#persons a:hover {
+    color: rgb(0, 255, 255);
+    font-size: 20px;
+    font-style: italic;
+}
+#persons ul li a {
+  color: #fff;
+}
+#contact  {
+    background: #fff;
+    padding: 20px;
+    text-align: left;
+}
+#contact h2 {
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+#contact p {
+    margin-bottom: 10px; 
+}
+#services li, 
+#contact p {
+    color: #0056b3;
+    cursor: pointer;
+}
+@media screen and (max-width:768px) {
+    #services, #about, #contact {
+        text-align: center; 
+    }
+    #services ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
+footer {
+    background: #005f73;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
